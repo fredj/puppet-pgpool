@@ -1,0 +1,4 @@
+pgpool::config::backend {
+  'foo.camptocamp.com': ensure => present;
+  'bar.camptocamp.com': ensure => present, port => '5433', weight => 1;
+}
